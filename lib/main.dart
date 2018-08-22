@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
-import 'search_list.dart';
+import 'package:hello_world/ImageDemo.dart';
+
+
 void main() => runApp(new MyApp());
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
+
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
@@ -15,7 +18,8 @@ class MyApp extends StatelessWidget {
         primaryColor: Color(0xFFFFBB54),
         accentColor: Color(0xFFECEFF1),
       ),
-      home: new SearchList(),
+      home: new ImageDemo(),
     );
   }
+
 }

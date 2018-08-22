@@ -1,7 +1,22 @@
-// Copyright 2015 The Chromium Authors. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
-// found in the LICENSE file.
+import 'package:flutter/material.dart';
+import 'package:hello_world/search_list.dart';
 
-import 'package:flutter/widgets.dart';
+void main() => runApp(new MyApp());
 
-void main() => runApp(const Center(child: const Text('Hello, world!', textDirection: TextDirection.ltr)));
+class MyApp extends StatelessWidget {
+  // This widget is the root of your application.
+  @override
+  Widget build(BuildContext context) {
+    return new MaterialApp(
+      title: 'Flutter Search',
+      debugShowCheckedModeBanner: false,
+      theme: new ThemeData(
+        brightness: Brightness.light,
+        primarySwatch:Colors.yellow,
+        primaryColor: Color(0xFFFFBB54),
+        accentColor: Color(0xFFECEFF1),
+      ),
+      home: new SearchList(),
+    );
+  }
+}

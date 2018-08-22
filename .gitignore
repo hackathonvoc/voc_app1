@@ -13,3 +13,4 @@ voc_app1.iml
 voc_app1.ipr
 voc_app1.iws
 pubspec.lock
+android/app/src/main/gen/

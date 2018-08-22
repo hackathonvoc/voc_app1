@@ -13,8 +13,8 @@ class SignInState extends State<SignIn> {
     return new Scaffold(
         body: new Stack(children: <Widget>[
           new Opacity(
-//              opacity: 1.0,
-              opacity: 0.3,
+              opacity: 1.0,
+//              opacity: 0.3,
               child: new Container(
                 decoration: new BoxDecoration(
                   image: new DecorationImage(
@@ -24,7 +24,7 @@ class SignInState extends State<SignIn> {
                 ),
               )),
           new Column(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+//            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
               new FlatButton(
@@ -32,11 +32,11 @@ class SignInState extends State<SignIn> {
                   decoration: new BoxDecoration(
                     color: Theme.of(context).accentColor,
                   ),
-                  child: new Center(
-                      child: new Text("Sign In",
-                          style: new TextStyle(
-                            color: const Color(0xff000000),
-                          ))),
+//                  child: new Center(
+//                      child: new Text("Sign In",
+//                          style: new TextStyle(
+//                            color: const Color(0xff000000),
+//                          ))),
                 ),
                 onPressed: () {
                   Navigator.of(context).push(new PageRouteBuilder(
@@ -53,3 +53,4 @@ class SignInState extends State<SignIn> {
         ]));
   }
 }
+

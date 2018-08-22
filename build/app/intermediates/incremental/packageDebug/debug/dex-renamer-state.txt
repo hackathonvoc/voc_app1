@@ -1,4 +1,0 @@
-#Wed Aug 22 11:43:13 CST 2018
-base.0=/Users/summeryu/AndroidStudioProjects/voc_app1/build/app/intermediates/transforms/dexMerger/debug/0
-path.0=classes.dex
-renamed.0=classes.dex

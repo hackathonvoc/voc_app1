@@ -27,7 +27,10 @@ class SignInState extends State<SignIn> {
 //            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
-              new FlatButton(
+              ButtonTheme(
+                minWidth: 200.0,
+                height: 120.0,
+              child: new MaterialButton(
                 child: new Container(
                   decoration: new BoxDecoration(
                     color: Theme.of(context).accentColor,
@@ -47,7 +50,7 @@ class SignInState extends State<SignIn> {
 
                       }));
                 },
-              ),
+              )),
             ],
           )
         ]));

@@ -1,0 +1,15 @@
+build
+build/app.dill
+build/frontend_server.d
+.packages
+android/.gradle/
+android/gradle/wrapper/gradle-wrapper.jar
+android/gradlew
+android/gradlew.bat
+android/local.properties
+build/android-profile/
+build/app/
+voc_app1.iml
+voc_app1.ipr
+voc_app1.iws
+pubspec.lock

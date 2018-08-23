@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:hello_world/SignIn.dart';
+import 'package:hello_world/AudioSearch.dart';
 
 void main() {
-  runApp(new TalkcasuallyApp());
+  runApp(new DashboardApp());
 }
 
-class TalkcasuallyApp extends StatelessWidget {
+class DashboardApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
         title: 'Coupang Audio Search',
-        home: new SignIn()
+        home: new AudioSearch()
     );
   }
 }

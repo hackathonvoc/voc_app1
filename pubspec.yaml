@@ -64,5 +64,7 @@ flutter:
   uses-material-design: true
   assets:
        - assets/coupangImage.jpeg
+       - assets/coupangImage1.jpeg
+       - assets/mainPage.png
 
 # PUBSPEC CHECKSUM: f5eb

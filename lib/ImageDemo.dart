@@ -8,7 +8,7 @@ class ImageDemo extends StatelessWidget {
           child: new Container(
               decoration: new BoxDecoration(
                 image: new DecorationImage(
-                  image: new AssetImage('assets/coupangImage1.jpeg'),
+                  image: new AssetImage('assets/coupangImage.jpeg'),
                 ),
               )
           )

@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:hello_world/DynamicPage.dart';
+import 'package:hello_world/SearchPage.dart';
 
-class SignIn extends StatefulWidget {
+class AudioSearch extends StatefulWidget {
   @override
-  State createState() => new SignInState();
+  State createState() => new _AudioSearchState();
 }
 
-class SignInState extends State<SignIn> {
+class _AudioSearchState extends State<AudioSearch> {
 
   @override
   Widget build(BuildContext context) {
@@ -18,7 +18,7 @@ class SignInState extends State<SignIn> {
               child: new Container(
                 decoration: new BoxDecoration(
                   image: new DecorationImage(
-                    image: new ExactAssetImage('assets/coupangImage.jpeg'),
+                    image: new ExactAssetImage('assets/mainPage.png'),
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -29,7 +29,7 @@ class SignInState extends State<SignIn> {
             children: <Widget>[
               ButtonTheme(
                 minWidth: 200.0,
-                height: 120.0,
+                height: 130.0,
               child: new MaterialButton(
                 child: new Container(
                   decoration: new BoxDecoration(
@@ -46,8 +46,7 @@ class SignInState extends State<SignIn> {
                       pageBuilder: (BuildContext context,
                           Animation<double> animation,
                           Animation<double> secondaryAnimation) {
-                        return new DynamicPage();
-
+                        return new SearchPage();
                       }));
                 },
               )),
